@@ -11,9 +11,14 @@ export const LayoutContainer = styled.main`
 export const Header = styled.header`
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   padding: 2rem;
+
+  span {
+    color: white;
+    opacity: 0.8;
+  }
 
   img {
     height: 2.5rem;

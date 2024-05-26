@@ -7,6 +7,7 @@ export function AppLayout() {
   return (
     <LayoutContainer>
       <Header>
+        <span>Tech Talk / SPA</span>
         <img src={logoImage} alt="Logo Vander Dev" />
       </Header>
       <Outlet />
